@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+vader2025.settings:
+  type: vader2025.settings
+  label: 'Bootstrap Barrio settings'
