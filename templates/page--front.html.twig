@@ -17,14 +17,18 @@
   <body{{ attributes.addClass(body_classes) }}>
 
 
-    <h1> Väder </h1>
+<menu>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+  <a class="logga" href="https://www.svgrepo.com/show/530233/weather.svg">
+      <img src="https://www.svgrepo.com/show/530233/weather.svg" alt="SARK_logga" width="80" height="60">
+    </a>
+
     {{ drupal_menu('main') }}
   </div>
 </nav>
+</menu>
     {{ drupal_entity('node', 10) }}
-    {{ drupal_menu('footer') }}
+    <footer>{{ drupal_menu('footer') }}</footer>
     {{ page_bottom }}
 
 
